@@ -3,7 +3,7 @@ project(main LANGUAGES CXX)
 
 set(CMAKE_CXX_COMPILER g++)
 
-add_executable(main default.cpp)
+add_executable(main wavgen_example.cpp)
 
 target_link_libraries(main "avutil")
 target_link_libraries(main "avcodec")
